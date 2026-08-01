@@ -2,9 +2,9 @@ package TutorialQuestions.Tutorial2;
 
 public class Q2Book {
     // Fields to store the title, author, and price
-    private String title;
-    private String author;
-    private double price;
+    String title;
+    String author;
+    double price;
 
     // Constructor to initialize fields and display details
     public Q2Book(String title, String author, double price) {
