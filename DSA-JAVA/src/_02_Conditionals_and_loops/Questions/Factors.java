@@ -1,4 +1,4 @@
-package _02_Conditionals_and_loops;
+package _02_Conditionals_and_loops.Questions;
 import java.util.Scanner;
 // Input a number and print all the factors of that number (use loops).
 public class Factors {
