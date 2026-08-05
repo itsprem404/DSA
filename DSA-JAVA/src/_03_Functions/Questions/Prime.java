@@ -30,3 +30,25 @@ public class Prime {
     }
 }
 
+
+//Or
+
+/*
+    static String prime(int num) {
+        if (num <= 1) {
+            return "Not a Prime Number";
+        }
+        if (num == 2 || num == 3) {
+            return "Prime Number";
+        }
+        if (num % 2 == 0 || num % 3 == 0) {
+            return "Not a Prime Number";
+        }
+        for (int i = 5; i * i <= num; i += 6) {
+            if (num % i == 0 || num % (i + 2) == 0) {
+                return "Not a Prime Number";
+            }
+        }
+        return "Prime Number";
+    }
+*/
