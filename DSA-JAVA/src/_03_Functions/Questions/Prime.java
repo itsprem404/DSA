@@ -17,12 +17,12 @@ public class Prime {
             return "is Prime";
         }
 
-        for (int i = 3; i * i <= num; i +=2) {
+        for(int i = 3; i * i <= num; i +=2) {
             if (num % i == 0) {
                 return "Not Prime";
-            }else return "Prime";
+            }
         }
-        return "";
+        return "Prime";
     }
 }
 
