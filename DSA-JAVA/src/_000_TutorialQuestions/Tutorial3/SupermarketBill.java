@@ -1,4 +1,4 @@
-package TutorialQuestions.Tutorial3;
+package _000_TutorialQuestions.Tutorial3;
 
 import java.util.Scanner;
 

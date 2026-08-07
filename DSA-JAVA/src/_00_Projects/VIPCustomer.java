@@ -1,3 +1,4 @@
+package _00_Projects;
 import java.util.*;
 
 public class VIPCustomer {
