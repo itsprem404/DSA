@@ -27,20 +27,20 @@ class Book {
         }
         return fine;
     }
-    
-public class LibraryManagement {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        int bookId = sc.nextInt();
-        String bookName = sc.next();
-        String studentName = sc.next();
-        int daysLate = sc.nextInt();
+    public class LibraryManagement {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
 
-        Book book = new Book(bookId, bookName, studentName, daysLate);
-        System.out.println("Fine: " + book.calculateFine() + " Rs");
+            int bookId = sc.nextInt();
+            String bookName = sc.next();
+            String studentName = sc.next();
+            int daysLate = sc.nextInt();
+
+            Book book = new Book(bookId, bookName, studentName, daysLate);
+            System.out.println("Fine: " + book.calculateFine() + " Rs");
+        }
     }
 }
-
 
 
