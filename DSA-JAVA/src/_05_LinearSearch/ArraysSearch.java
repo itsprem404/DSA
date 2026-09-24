@@ -10,5 +10,6 @@ public class ArraysSearch {
 
     public static int linearSearch(int[] nums, int target){
 
+        return target;
     }
 }
